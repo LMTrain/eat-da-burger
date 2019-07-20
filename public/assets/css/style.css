@@ -1,0 +1,90 @@
+html,
+body {
+  height: 100%;
+  background-image: url("../img/background.jpg");
+}
+.page-header {
+  font-family: 'Bodoni MT Black';
+  font-size: 65px;
+  text-align:center;
+  color: green;
+  margin-top:-5px;
+}
+
+.burger-entry {
+  font-family: 'Bodoni MT Black';
+  text-align:center;
+  color: whitesmoke;
+  margin-top:-45px;
+  
+}
+.container {
+  background-size:cover;
+  width: 2000px;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  font-size: 24px;
+  background-image: url("../img/background.jpg");
+  /* background: rgb(136, 73, 73); */
+}
+
+.label {
+  font-weight: bold;
+  
+}
+
+#button-wrapper{
+  cursor:pointer;
+  width:650px;
+  height:50px;
+  color:white;
+  font-size:25px; 
+}
+
+#button-wrapper:hover{
+  color: green;
+}
+
+.contents-r1-c1 {
+  /* border: dotted whitesmoke 2px; */
+  font-family: 'Bodoni MT Black';
+  color: whitesmoke;
+  margin-top:25px; 
+  height: 650px;
+  width: auto;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: rgb(199, 56, 144);
+}
+
+#radio1 {
+  visibility: hidden;
+}
+
+/* .burger-img {
+  display:none;
+} */
+
+/* #changed-eat {
+  display:none;
+} */
+
+#listing {
+  /* padding: 5px; */
+  margin: 5px;
+  color: whitesmoke;
+  background-image: url("../img/background.jpg");
+  width: 410px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+  font-size: 25px;
+  color: whitesmoke;
+}
