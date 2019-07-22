@@ -26,9 +26,9 @@ body {
 li {
   padding: 5px;
   margin: 5px;
-  font-size: 24px;
+  font-size: 18px;
   background-image: url("../img/background.jpg");
-  /* background: rgb(136, 73, 73); */
+  
 }
 
 .label {
@@ -41,15 +41,14 @@ li {
   width:650px;
   height:50px;
   color:white;
-  font-size:25px; 
+  font-size:18px; 
 }
 
 #button-wrapper:hover{
   color: green;
 }
 
-.contents-r1-c1 {
-  /* border: dotted whitesmoke 2px; */
+.contents-r1-c1 {  
   font-family: 'Bodoni MT Black';
   color: whitesmoke;
   margin-top:25px; 
@@ -67,24 +66,17 @@ li {
   visibility: hidden;
 }
 
-/* .burger-img {
-  display:none;
-} */
-
-/* #changed-eat {
-  display:none;
-} */
-
 #listing {
-  /* padding: 5px; */
+ 
   margin: 5px;
   color: whitesmoke;
+  font-size: 18px;
   background-image: url("../img/background.jpg");
-  width: 410px;
+  width: 415px;
 }
 
 .form-group {
   margin-bottom: 5px;
-  font-size: 25px;
+  font-size: 18px;
   color: whitesmoke;
 }

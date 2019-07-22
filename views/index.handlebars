@@ -3,7 +3,8 @@
   <div class="row">
     <div class="col-md-4">
       <div class="contents-r1-c1">
-                   
+        <br>
+        <br>          
         <ol id="listing">
           {{#each burgers}}
             {{#unless eaten}}
@@ -34,35 +35,22 @@
             </div>
           </div>
          
-        </form>       
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>       
-      <div class="burger-img">
-        <img src="../assets/img/burger.jpg" alt="Burger" style="width:150px;height:150px;border:0"/>
-      </div>
-      {{!-- <button type="button" class="showburger">Show Image</button>   --}}
-      {{!-- <button type="button" class="hideburger">Hide Image</button> --}}
+        </form>
+    
+      
       </div>
     </div>
 
     <div class="col-md-4">
       <div class="contents-r1-c1">
-        
+        <br>
         <ol id="listing">
           {{#each burgers}}
             {{#if eaten}}
-            {{name}}
+            <br>{{name}}
               {{!-- {{> burgers/burger-block eat=false}} --}}
               <button>Devoured</button>
-              <button class="delete-burger" data-id="{{this.id}}">Delete!</button>
+              <button class="delete-burger" data-id="{{this.id}}">Delete!</button><br>
             {{/if}}
           {{/each}}
         </ol>
