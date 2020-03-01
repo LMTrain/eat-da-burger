@@ -4,30 +4,40 @@ body {
   background-image: url("../img/background.jpg");
 }
 .page-header {
-  font-family: 'Bodoni MT Black';
-  font-size: 65px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
   text-align:center;
-  color: green;
+  color: whitesmoke;
   margin-top:-5px;
+  font-weight: bold;
 }
 
 .burger-entry {
-  font-family: 'Bodoni MT Black';
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align:center;
   color: whitesmoke;
-  margin-top:-45px;
+  margin-top:-25px;
+  font-size: 22px;
+  font-weight: bold;
   
 }
 .container {
   background-size:cover;
-  width: 2000px;
+  background-image: url("../img/background.jpg");
+  /* width: 2000px; */
 }
 
 li {
-  padding: 5px;
+  padding: 10px 10px 10px 10px;
+  margin: 5px; 
   margin: 5px;
-  font-size: 18px;
-  background-image: url("../img/background.jpg");
+  color: red;
+  font-size: large;
+  /* background-image: url("../img/background.jpg"); */
+  width: 415px;
+  font-weight: bolder;
+  text-align: justify;
+  list-style: none;
   
 }
 
@@ -48,10 +58,32 @@ li {
   color: green;
 }
 
+button {
+  cursor:pointer;
+  border-radius:7px;
+  padding:4px;
+  margin:5px;    
+  color: black;
+  font-weight: bold;    
+}
+
+button:hover{    
+  color: red;
+}
+
 .contents-r1-c1 {  
-  font-family: 'Bodoni MT Black';
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: whitesmoke;
   margin-top:25px; 
+  height: 650px;
+  width: auto;
+  text-align: center;
+}
+
+.contents-r1-c2 {  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  margin-top:95px; 
   height: 650px;
   width: auto;
 }
@@ -67,12 +99,14 @@ li {
 }
 
 #listing {
- 
+  padding: 10px 10px 10px 10px;
   margin: 5px;
-  color: whitesmoke;
-  font-size: 18px;
-  background-image: url("../img/background.jpg");
+  color: red;
+  font-size: large;
+  /* background-image: url("../img/background.jpg"); */
   width: 415px;
+  font-weight: bolder;
+  text-align: justify;
 }
 
 .form-group {

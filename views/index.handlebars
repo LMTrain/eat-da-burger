@@ -1,8 +1,8 @@
 <div class="container">
-  <h1 class="page-header">Eat-Da-Burger!</h1><br>
+  <h1 class="page-header">Burger Restaurant</h1><br>
   <div class="row">
     <div class="col-md-4">
-      <div class="contents-r1-c1">
+      <div class="contents-r1-c2">
         <br>
         <br>          
         <ol id="listing">
@@ -18,12 +18,14 @@
     <div class="col-md-4">
       <div class="contents-r1-c1">
                 
-        <h3 class="burger-entry">Enter a Burger to eat</h3>
         <form class="create-form">
 
           <div class="form-group">
             <label for="ca"></label>            
-            <input type="text" id="ca" name="name">
+            <span>
+              <h3 class="burger-entry">Enter a Burger to eat</h3>
+              <input type="text" id="ca" name="name">
+            </span>
           </div>
 
           <div class="form-group">
@@ -33,24 +35,21 @@
               <input type="radio" id="radio1" name="eaten" value="1">            
               <button type="submit" class="showburger">Submit</button>            
             </div>
-          </div>
-         
-        </form>
-    
-      
+          </div>         
+        </form> 
       </div>
     </div>
 
     <div class="col-md-4">
-      <div class="contents-r1-c1">
+      <div class="contents-r1-c2">
         <br>
         <ol id="listing">
           {{#each burgers}}
             {{#if eaten}}
             <br>{{name}}
               {{!-- {{> burgers/burger-block eat=false}} --}}
-              <button>Devoured</button>
-              <button class="delete-burger" data-id="{{this.id}}">Delete!</button><br>
+              {{!-- <button>Devoured</button> --}}
+              <button class="delete-burger" data-id="{{this.id}}">X</button><br>
             {{/if}}
           {{/each}}
         </ol>
